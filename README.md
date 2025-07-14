@@ -13,3 +13,7 @@ and returns a list of only the domain names as:
 I wanted to take a list of email address, which may include other text, and get back a list of domain names.
 The reason is that I create a list of SPAM email addresses that I want to create rules for, run the list through this script, and get a list of only the domain names so I can cut and paste them easily into MSOutlook's email filters.
 
+Usage:
+    cat file.txt | python extract_domains.py
+    python extract_domains.py file.txt
+
